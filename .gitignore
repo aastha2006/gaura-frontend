@@ -1,0 +1,39 @@
+# --- Node ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Build output ---
+dist/
+build/
+*.log
+*.gz
+*.zip
+
+# --- Environment variables ---
+.env
+.env.local
+.env.*.local
+
+# --- Editor files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- System files ---
+*.bak
+*.tmp
+
+# --- Dependency caches ---
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# --- Optional ---
+# Ignore compiled TypeScript output (if ever used)
+*.tsbuildinfo
+
+# --- Coverage and testing ---
+coverage/
